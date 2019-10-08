@@ -1,4 +1,4 @@
-package com.unicesmag.myapplication;
+package com.unicesmag.app;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.unicesmag.myapplication", appContext.getPackageName());
+        assertEquals("com.unicesmag.app", appContext.getPackageName());
     }
 }

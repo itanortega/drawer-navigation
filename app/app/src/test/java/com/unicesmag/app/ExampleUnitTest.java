@@ -1,4 +1,4 @@
-package com.unicesmag.myapplication;
+package com.unicesmag.app;
 
 import org.junit.Test;
 

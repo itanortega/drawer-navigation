@@ -1,0 +1,14 @@
+3. Modificamos el nav_header_main.xml
+4. Modificamos el activity_main_drawer.xml (carpeta menu)
+5. Habilitamos los colores de los iconos
+		navigationView.setItemIconTintList(null);
+6. Creamos los fragments
+7. Creamos el comportamiento de los iconos
+	FragmentManager fragmentManager = getSupportFragmentManager();
+	fragmentManager.beginTransaction().replace(R.id.contenedor, new FragmentInicio()).commit();
+	
+	
+7. Modificar mobilde_navigation --> agregar los fragments y establecer app:startDestination
+8. Modificar la actividad --> mAppBarConfiguration debe tener los R.id.nav...
+9. Modificar content_app --> tools:showIn
+	
